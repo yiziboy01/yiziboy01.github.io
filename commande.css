@@ -1,0 +1,196 @@
+/* General Body Styling */
+body {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Assure que le contenu occupe toute la hauteur de la page */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Place le footer en bas */
+}
+
+/* Header Styling */
+header {
+  background-color: black;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+header h1 {
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* Navigation Styling */
+nav {
+  text-align: center;
+  background-color: black;
+}
+
+nav a {
+  float: left;
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* Image Styling */
+nav img {
+  height: 50px; /* Réduire la taille de l'image */
+  width: auto;
+  float: left;
+  margin: 0 10px;
+}
+/* Formulaire Styling */
+form {
+  padding: 12px;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+form .row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacement entre les champs */
+}
+
+form .col-sm-2 {
+  padding-right: 10px;
+}
+
+form .col-sm-10 {
+  padding-left: 10px;
+}
+
+form input[type="nom"],
+form input[type="prénom"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Marge inférieure uniforme */
+}
+
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form select {
+  width: 10%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+/* Main Content Styling */
+h3 {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  color: black;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  color: black;
+}
+
+/* Footer Styling */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  margin: top 220px;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border:  20px solid;
+}
+th , td{
+  border: 20px solid;
+  padding: 10px;
+  text-align: left;
+}
+th{ background-color: whitesmoke;
+}

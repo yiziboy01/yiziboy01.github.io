@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passez une commande</title>
+    <link rel="stylesheet" href="commande.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="list-unstyled d-flex gap-3">
+          <li><a href="Web.html">Accueil</a></li>
+          <li><a href="About.html">À propos de nous</a></li>
+          <li><a href="passez une commande.html">Passez votre commande</a></li>
+        </ul>
+        <img src="./images/kaks logs - Copie.png" alt="Logo de l'entreprise" />
+      </nav>
+    </header>
+
+    <h2 class="text-center my-4">Formulaire de Commande</h2>
+    <form class="container">
+      <div class="row mb-3">
+        <label for="inputname" class="col-sm-2 col-form-label">Nom</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputname" required />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputprénom" class="col-sm-2 col-form-label">Prénom</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputprénom" required />
+        </div>
+      </div>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Type de livraison</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1"> Magasin </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="gridRadios2"> Domicile </label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">
+          Cochez quel type de modification à apporter
+        </legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Pot d'échappement
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Customisation
+            </label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Laissez un commentaire ici"
+              id="floatingTextarea2"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2">Commentaires</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary">Soumettre</button>
+    </form>
+    <table class="table table-striped">
+      <caption>Liste des modèles et prix</caption>
+      <thead>
+        <tr>
+          <th>Modèle</th>
+          <th>Type</th>
+          <th>Prix</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Allemande</td>
+          <td>catégorie J</td>
+          <td>425$</td>
+        </tr>
+        <tr>
+          <td>Britannique</td>
+          <td>catégorie F</td>
+          <td>374$</td>
+        </tr>
+        <tr>
+          <td>Américaine</td>
+          <td>catégorie A</td>
+          <td>278$</td>
+        </tr>
+        <tr>
+          <td>Japonaise</td>
+          <td>catégorie E</td>
+          <td>326$</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer class="text-center my-4">
+      <a href="https://www.facebook.com/profile.php?id=61571037743539" title="Facebook">
+        <img src="./images/Logo_de_Facebook.png" alt="Logo Facebook" />
+      </a>
+      <a href="https://wa.me/qr/J5VBSHWYSG7TD1" title="WhatsApp">
+        <img
+          src="./images/whatsapp-square-logo-on-transparent-background-free-vector.jpg"
+          alt="Logo WhatsApp"
+        />
+      </a>
+      <a href="http://tiktok.com/@slim_kaki" title="TikTok">
+        <img
+          src="./images/tiktok-logo-tiktok-symbol-tiktok-icon-free-free-vector.jpg"
+          alt="Logo TikTok"
+        />
+      </a>
+      <a href="mailto:kakicustom667@gmail.com" title="Email">
+        <img src="/images/Sans titre.png" alt="Email" />
+      </a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  
+  </body>
+</html>

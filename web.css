@@ -1,0 +1,129 @@
+/* Header Styling */
+header {
+  background-color: black;
+  overflow: hidden; /* Pour s'assurer que le conteneur englobe les éléments flottants */
+  padding: 10px 20px; /* Ajouter un peu d'espace autour du header */
+  display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+  align-items: center; /* Centrer verticalement les éléments */
+  justify-content: space-between; /* Espacer les éléments */
+}
+
+header h1 {
+  color: black; /* Couleur du texte du titre en blanc */
+  text-align: center; /* Centrer le titre */
+  margin: 0; /* Supprimer la marge par défaut */
+  padding: 0; /* Supprimer le padding inutile */
+  font-size: 24px; /* Taille de police ajustée */
+}
+
+header img {
+  width: 150px; /* Taille moyenne pour l'image */
+  height: auto; /* Conserver les proportions de l'image */
+}
+
+/* Navigation Styling */
+nav {
+  text-align: center; /* Centrer le contenu du nav */
+}
+
+nav a {
+  display: inline-block; /* Afficher les liens en ligne */
+  padding: 10px 20px; /* Ajouter du padding pour un meilleur espacement */
+  color:white; /* Couleur du texte des liens */
+  text-decoration: none; /* Pas de soulignement */
+  transition: background-color 0.3s ease; /* Animation fluide au survol */
+}
+
+nav a:hover {
+  background-color: cyan; /* Changer la couleur de fond au survol */
+  color: white; /* Changer la couleur du texte au survol */
+}
+body {
+  background-color: beige;
+}
+/* Footer Styling */
+footer {
+  background-color: black; /* Fond noir pour le footer */
+  text-align: center; /* Centrer le contenu du footer */
+  padding: 20px 0; /* Espacement intérieur */
+  margin-top: 40px; /* Espacement entre le contenu principal et le footer */
+}
+
+footer .blocklogo {
+  display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+  justify-content: center; /* Centrer les éléments horizontalement */
+  gap: 20px; /* Espacement entre les icônes */
+  padding: 0; /* Suppression du padding inutile */
+  margin: 0; /* Suppression de la marge inutile */
+}
+
+footer img {
+  width: 40px; /* Taille des icônes */
+  height: 40px; /* Taille des icônes */
+  transition: transform 0.3s ease; /* Animation fluide au survol */
+}
+
+footer img:hover {
+  transform: scale(1.2); /* Effet de zoom au survol */
+}
+
+article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section img {
+  height: 120px;
+  width: 200px;
+}
+article img{
+    display: block;
+}
+nav {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}
+
+.blocklogo {
+  padding-left: 20%;
+  margin-left: 20%;
+}
+aside {
+  text-align: right;
+}
+section h2{
+    text-align: center;
+
+}
+section h3{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: beige;
+  }
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  
+  section img {
+    height: 120px;
+    width: 200px;
+    margin-bottom: 10px;
+  
+  }
+  article img{
+      display: block;
+
+  }
+}
